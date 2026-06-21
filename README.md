@@ -30,11 +30,7 @@ but a reference from a healthy `.13` would be a huge help. 🙏
 **Boards:** `.161` Pi · `.10` MCU (STM32, not a filesystem) · `.14`/`.15` Nanos (here) ·
 `.13` Nano (**DEAD/MISSING — the whole point of this plea**).
 
-## 🔒 Sanitized — no secrets included
-Removed before publishing: `wpa_supplicant.conf` (WiFi passwords), `/etc/shadow` &
-`gshadow` (password hashes), `ssh_host_*_key` (private SSH keys), `/etc/ssl/private`,
-and `passwd.sh`. You'll need to recreate those on restore. Default Unitree login is
-`pi` / `123` and `unitree` / `123`.
+
 
 ## Restore (per board)
 ```bash
