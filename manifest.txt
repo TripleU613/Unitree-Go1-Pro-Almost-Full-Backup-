@@ -1,0 +1,21 @@
+=== Go1 backup manifest Sat 20 Jun 2026 08:31:57 PM HDT ===
+host: raspberrypi
+model: GO1 PRO
+updateDependencies:1.0.1
+roscore:1.0.0
+configNetwork:1.0.0
+sportMode:0.1.40
+triggerSport:1.5.0
+webMonitor:1.4.0
+appTransit:1.5.0
+07obstacle:1.1.0
+utrack:3.9.4
+programming:1.0.0
+testnetwork:1.0.0
+--- boards ---
+.10 UP
+.13 DOWN
+.14 UP
+.15 UP
+--- claude changes ---
+wlan0 static 10.0.0.212 + watchdog; hostapd ch44; node_pcl_process enabled; nano clock-sync in camerarosnode.sh; ntp restrict
